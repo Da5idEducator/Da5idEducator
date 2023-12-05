@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="hu-HU" />
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewpwort" content="width=device-width, initial-scale=1.0">
+    <link href="style/stylesheet.css" type="text/css" rel="stylesheet">
+
+    <title>Mértékegység kalkulátorok</title>
+</head>
+<body>
+    <script src="Script/konverterScript.js"></script>
+
+    <h1>Mértékegységek átszámítása</h1>
+    <h2>Font - kilogramm</h2>
+
+    <p>
+        <input id="inputFont" type="number" placeholder="Font"
+        oninput="fontKilogrammKonverter(this.value)" onchange="fontKilogrammKonverter(this.value)" >
+    </p>
+    <p>
+        Kilogramm: <span id="outputKilogramm"></span>
+    </p>
+
+    <footer>
+        <hr />
+        &copy; Adamcsik Dávid
+    </footer>
+</body>
+</html>
