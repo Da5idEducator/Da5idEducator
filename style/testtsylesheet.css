@@ -1,7 +1,78 @@
 .flex-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     background-color: brown;
-    width: 75%;
+    width: 85%;
+    border-radius: 10px;
 }
 
+.flex-container > div {
+    background-color: aquamarine;
+    margin: 10px;
+    padding: 20px;
+    font-size: 1.1em;
+    border-radius: 25%;
+}
+
+
+body {
+    background-color: #FFF5E0;
+    color: #141E46;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1em;
+    margin: 0;
+    }
+
+h1 {
+    color: #0079FF;
+    font-size: 2.5em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-bottom: 1px solid #cca8e9;
+    }
+
+h2 {
+    font-size: 1.5em;
+}
+
+a:link,
+a:visited {
+    color: #caf8af;
+    font-size: 1.2em;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.table_nutrition {
+    color: #141E46;
+    border-collapse: collapse;
+    border: 5px dotted #BB2525;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+}
+
+td, th {
+    border: 1px solid rgb(190,190,190);
+    padding: 10px 20px;
+}
+
+th {
+    background-color: rgb(235,235,235);
+  }
+  
+  td {
+    text-align: center;
+  }
+
+  tr:nth-child(even) td {
+    background-color: #FF6969;
+  }
+  
+  tr:nth-child(odd) td {
+    background-color: #BB2525;
+  }
+
+  caption {
+    padding: 10px;
+  }
