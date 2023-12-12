@@ -1,3 +1,21 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(8, 252, 187);
+    width: 75%;
+    
+}
+
+.flex-container > div {
+    background-color: #f67777;
+    margin: 10px;
+    padding: 20px;
+    column-gap: 15px;
+    font-size: 1.3rem;
+    border-radius: 20px;
+}
+
+
 body {
     background-color: #FFF5E0;
     color: #141E46;
@@ -8,7 +26,7 @@ body {
 
 h1 {
     color: #0079FF;
-    font-size: 2em;
+    font-size: 2.5em;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-bottom: 1px solid #cca8e9;
     }
@@ -19,7 +37,8 @@ h2 {
 
 a:link,
 a:visited {
-    color: #fb6542;
+    color: #caf8af;
+    font-size: 1.2em;
 }
 
 a:hover {
