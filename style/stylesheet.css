@@ -15,6 +15,25 @@
     border-radius: 20px;
 }
 
+.numberflex-container {
+    display: flex;
+    background-color: #118a7e;
+    width: 66%;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.numberflex-container > div {
+    background-color: #005689;
+    color: #d5eeff;
+    margin: 14px;
+    padding: 20px;
+    column-gap: 15px;
+    font-size: 1.0rem;
+    border-radius: 20px;
+    box-shadow: 5px 5px;
+}
 
 body {
     background-color: #FFF5E0;

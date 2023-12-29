@@ -12,27 +12,29 @@
 
     <h1>Mértékegységek átszámítása</h1>
 
-    <div class="numberflex-container">
+    <div class="flex-container">
         <div>
-            <h2>Font - kilogramm</h2>
+            <p>
+                <h2>Font - kilogramm</h2>
+            </p>
 
-             <p>
+            <p>
                 <input id="inputFont" type="number" placeholder="Font"
-                 oninput="fontKilogrammKonverter(this.value)" onchange="fontKilogrammKonverter(this.value)" >
+                    oninput="fontKilogrammKonverter(this.value)" onchange="fontKilogrammKonverter(this.value)" >
             </p>
             <p>
                 Kilogramm: <span id="outputKilogramm"></span>
             </p>
         </div>
+
         <div>
-
-            <h2>Kilogramm - font</h2>
-
             <p>
-            <input id="fontKilogramm" type="number" placeholder="Kilogramm"
-                oninput="kilogrammFontKonverter(this.value)" onchange="kilogrammFontKonverter(this.value)" >
+                <h2>Kilogramm - font</h2>
             </p>
-
+            <p>
+                <input id="inputKilogramm" type="number" placeholder="Kilogramm"
+                    oninput="kilogrammFontKonverter(this.value)" onchange="kilogrammFontKonverter(this.value)" >
+            </p>
             <p>
                 Font: <span id="outputFont"></span>
             </p>
