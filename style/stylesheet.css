@@ -1,26 +1,48 @@
+.navbar {
+    background-color: #141E46;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    border-radius: 10px;
+}
+
+.navbar > div {
+    background-color: #0079FF;
+    color: #caf8af;
+    margin: 7px;
+    padding: 3px;
+    border-radius: 5px;
+    box-shadow: 3px 3px;
+}
+
+
 .flex-container {
     display: flex;
+    width: 70%;
     flex-direction: column;
-    background-color: rgb(8, 252, 187);
-    width: 75%;
-    
+    background-color: #118a7e;
+    border-radius: 20px;
 }
 
 .flex-container > div {
-    background-color: #f67777;
-    margin: 10px;
+    background-color: #005689;
+    margin: 14px;
     padding: 20px;
     column-gap: 15px;
     font-size: 1.0rem;
     border-radius: 20px;
+    box-shadow: 5px 5px;
 }
 
 .numberflex-container {
     display: flex;
     background-color: #118a7e;
-    width: 66%;
+    color: #d5eeff;
+    width: 70%;
     flex-direction: row;
     justify-content: center;
+    margin: 14px;
     border-radius: 20px;
 }
 
@@ -36,15 +58,15 @@
 }
 
 body {
-    background-color: #FFF5E0;
-    color: #141E46;
+    background-color: #3D3B40;
+    color: #BFCFE7;
     font-family: Arial, Helvetica, sans-serif;
     padding: 1em;
     margin: 0;
     }
 
 h1 {
-    color: #0079FF;
+    color: #BFCFE7;
     font-size: 2.5em;
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-bottom: 1px solid #cca8e9;
@@ -57,7 +79,7 @@ h2 {
 a:link,
 a:visited {
     color: #caf8af;
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 a:hover {

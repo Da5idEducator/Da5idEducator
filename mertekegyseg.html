@@ -10,6 +10,17 @@
 <body>
     <script src="script/konverterScript.js"></script>
 
+    <div class="navbar">
+        <div>
+            <a href="index.html">Főoldal</a>
+        </div>
+
+        <div>
+            <a href="afonyas_tapiokapuding.html">Receptek</a>
+        </div>
+        <div>Véletlenszám generátor</div>
+    </div>
+
     <h1>Mértékegységek átszámítása</h1>
 
     <div class="numberflex-container">
@@ -38,6 +49,54 @@
             </p>
         </div>
     </div>
+
+    <div class="numberflex-container">
+        <div>
+            <h2>Inch - cm</h2>
+            <p>
+                <input id="inchCm" type="number" placeholder="Inch"
+                oninput="inchCmKonverter(this.value)" onchange="InchCmKonverter(this.value)" >
+            </p>
+            <p>
+                Cm: <span id="outputCm"></span>
+            </p>
+        </div>  
+        <div>
+            <h2>Cm - inch</h2>
+            <p>
+                <input id="cmInch" type="number" placeholder="Centiméter"
+                oninput="cmInchKonverter(this.value)" onchange="cmInchKonverter(this.value)" >
+            </p>
+            <p>
+                Inch: <span id="outputInch"></span>
+            </p>
+        </div>
+    </div>
+
+    <div class="numberflex-container">
+        <div>
+            <h2>Láb - méter</h2>
+            <p>
+                <input id="feetMeter" type="number" placeholder="Láb"
+                oninput="feetMeterKonverter(this.value)" onchange="feetMeterKonverter(this.value)" >
+            </p>
+            <p>
+                Méter: <span id="outputMeter"></span>
+            </p>
+        </div>  
+        <div>
+            <h2>Méter - láb</h2>
+            <p>
+                <input id="meterFeet" type="number" placeholder="Méter"
+                oninput="meterFeetKonverter(this.value)" onchange="meterFeetKonverter(this.value)" >
+            </p>
+            <p>
+                Láb: <span id="outputFeet"></span>
+            </p>
+        </div>
+    </div>
+
+
 
     <footer>
         <hr />
