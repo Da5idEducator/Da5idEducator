@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="hu-HU">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, inital-scale=1.0">
+
+        <title>JavaScript gyakorló feladatok</title>
+    </head>
+
+<body>
+    <h1>JavaScript gyakorló feladatok</h1>
+
+    <h2>Gomb</h2>
+    <button type="button" name="btn_jatekosnev">1. játékos: Ágoston</button>
+
+    <style>
+        button {
+        font-family: "helvetica neue", helvetica, sans-serif;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        border: 2px solid rgb(200 200 0 / 0.6);
+        background-color: rgb(0 217 217 / 0.6);
+        color: rgb(100 0 0 / 1);
+        box-shadow: 1px 1px 2px rgb(0 0 200 / 0.4);
+        border-radius: 10px;
+        padding: 3px 10px;
+        cursor: pointer;
+        }
+    </style>
+
+    <script>
+        const button = document.querySelector("button");
+
+        button.addEventListener("click", updateName);
+
+        function updateName() {
+            const name = prompt("Írja be az új nevet!");
+            button.textContent = `Player 1: ${name}`;
+        }
+    </script>
+
+    <h2>Számkitaláló játék</h2>
+
+</body>
+</html>

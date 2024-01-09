@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="hu-HU" />
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewpwort" content="width=device-width, initial-scale=1.0">
+    <link href="style/stylesheet.css" type="text/css" rel="stylesheet">
+
+    <title>Mértékegység kalkulátorok</title>
+</head>
+<body>
+    <script src="script/tanoraiKonverterScript.js"></script>
+
+    <h1>Mértékegységek átszámítása</h1>
+
+    <div class="flex-container">
+        <div>
+            <p>
+                <h2>Font - kilogramm</h2>
+            </p>
+
+            <p>
+                <input id="inputFont" type="number" placeholder="Font"
+                    oninput="fontKilogrammKonverter(this.value)" onchange="fontKilogrammKonverter(this.value)" >
+            </p>
+            <p>
+                Kilogramm: <span id="outputKilogramm"></span>
+            </p>
+        </div>
+
+        <div>
+            <p>
+                <h2>Kilogramm - font</h2>
+            </p>
+            <p>
+                <input id="inputKilogramm" type="number" placeholder="Kilogramm"
+                    oninput="kilogrammFontKonverter(this.value)" onchange="kilogrammFontKonverter(this.value)" >
+            </p>
+            <p>
+                Font: <span id="outputFont"></span>
+            </p>
+        </div>
+    </div>
+
+    <footer>
+        <hr />
+        &copy; Adamcsik Dávid
+    </footer>
+</body>
+</html>
